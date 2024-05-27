@@ -7,6 +7,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material/material.module';
 import { NavbarModule } from './nav-bar/navbar/navbar.module';
 import { HomeModule } from './modules/home/home/home.module';
+import { AboutModule } from './modules/about/about/about.module';
+import { SkillsModule } from './modules/skills/skills/skills.module';
+import { EducationModule } from './modules/education/education/education.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,8 @@ import { HomeModule } from './modules/home/home/home.module';
     BrowserAnimationsModule,
     MaterialModule,
     NavbarModule,
-    HomeModule
+    EducationModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
